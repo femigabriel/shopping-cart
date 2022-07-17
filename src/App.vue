@@ -35,10 +35,17 @@ body {
 }
 .app {
   width: 750px;
+  overflow-x: hidden;
 }
 @media (max-width: 420px) {
   .app {
     max-width: 420px;
+  }
+}
+@media (max-width: 380px) {
+  .app {
+    width: 380px;
+    
   }
 }
 @media (max-width: 820px) {
