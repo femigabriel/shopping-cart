@@ -27,15 +27,23 @@ body {
 }
 #app {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #2c3e50;
   margin-top: 60px;
-  
 }
 .app {
   width: 750px;
-  
+}
+@media (max-width: 420px) {
+  .app {
+    max-width: 420px;
+  }
+}
+@media (max-width: 820px) {
+  .app {
+    max-width: 750px;
+  }
 }
 </style>
